@@ -47,10 +47,11 @@ Hardware:
 
 Additionally, several parts were made with a 3D printer:
 
-- Motor holder 
+- Motor holder (https://www.thingiverse.com/thing:6519428)
 - Holder for RFID reader
-- Cover plate for motor/flange
-- Barcode-elements
+- Cover plate for motor/flange 
+- Barcode-elements (https://www.thingiverse.com/thing:6519440)
+- Bowl-holders: (https://www.thingiverse.com/thing:6519420)
 
 Version 0.1, with mobile phone holder:
 
