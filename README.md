@@ -1,5 +1,9 @@
 I have 2 cats. Puck and Saar (as in Sarah). Lovely animals and each with a separate diet. One has a food intolerance and requires special food, the other tends to overeat. In practice, this meant they both received the same food and one would eat the other's food unless I stayed with them and fed them at fixed times, but that didn't work for me. This was the motivation to develop the catfeeder. The catfeeder consists of a box with a rotating disc inside. On the disc are two food bowls (standard IKEA) hidden under the lid. When a cat approaches (this is detected via the RFID chip in their neck), the correct food bowl is rotated forward. As long as the cat remains near the RFID reader, the bowl stays in place. If the cat moves away, the food bowl remains in place for about 10 seconds (in case she returns) and then rotates away again.
 
+Version 0.1, with mobile phone holder:
+
+![catfeeder 1 0](https://github.com/Tech-RW/Catfeeder/assets/120517590/ba5172c5-142e-4839-818f-bfcabc51899f)
+
 Because one of the cats tends to eat a lot, she has a tendency to consume all the food in the morning. To help her eat more evenly, a time slot has been set during which she cannot eat. There is one time slot, and this time slot can be activated per cat (does not work stand-alone, this needs a WiFi connection for time synchronisation).
 
 Because the stepper motor is not precise enough (due to the flywheel effect, the disc can rotate further than desired), the number of steps the stepper motor takes cannot be relied upon. Therefore, an infrared reader has been added, which can read the position of the disc. Each position has its own 'barcode' indicating the orientation of the disc. Short-Long-Short (KLK) represents the home position, Long-Short-Short (LKK) represents cat 1, Long-Short-Long (LKL) represents cat 2. It doesn't matter which direction the disc rotates; the barcodes can be read from both sides. Once the correct barcode is read, the motor (and the disc) stop.
@@ -53,9 +57,6 @@ Additionally, several parts were made with a 3D printer:
 - Barcode-elements (https://www.thingiverse.com/thing:6519440)
 - Bowl-holders: (https://www.thingiverse.com/thing:6519420)
 
-Version 0.1, with mobile phone holder:
-
-![catfeeder 1 0](https://github.com/Tech-RW/Catfeeder/assets/120517590/ba5172c5-142e-4839-818f-bfcabc51899f)
 
 Under the hood: (without cover plate for flange and bowl-holders)
 ![IMG_6434](https://github.com/Tech-RW/Catfeeder/assets/120517590/2fae9dd7-6751-4545-bcf3-c66fe913d16f)
