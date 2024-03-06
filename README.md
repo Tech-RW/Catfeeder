@@ -50,13 +50,21 @@ Additionally, several parts were made with a 3D printer:
 - Motor holder 
 - Holder for RFID reader
 - Cover plate for motor/flange
+- Barcode-elements
 
 Version 0.1, with mobile phone holder:
+
 ![catfeeder 1 0](https://github.com/Tech-RW/Catfeeder/assets/120517590/ba5172c5-142e-4839-818f-bfcabc51899f)
 
-Under the hood: 
+Under the hood: (without cover plate for flange and bowl-holders)
 ![IMG_6434](https://github.com/Tech-RW/Catfeeder/assets/120517590/2fae9dd7-6751-4545-bcf3-c66fe913d16f)
+
+Holders for bowls:
+
 ![IMG_6449](https://github.com/Tech-RW/Catfeeder/assets/120517590/8ef9cbb5-eaa7-46d6-80f5-2d794ef86833)
+
+Table bearing, Infrared reader, Steppenmotor and motor holder:
+
 ![IMG_6429](https://github.com/Tech-RW/Catfeeder/assets/120517590/0f6799cc-b744-4cbe-a1c3-e1ed2e8210cf)
 
 'Barcode'
