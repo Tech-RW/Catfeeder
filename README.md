@@ -6,6 +6,8 @@ Version 0.1, with mobile phone holder:
 
 ![catfeeder 1 0](https://github.com/Tech-RW/Catfeeder/assets/120517590/ba5172c5-142e-4839-818f-bfcabc51899f)
 
+https://github.com/Tech-RW/Catfeeder/assets/120517590/3da92f67-5bc5-466c-bbae-4104b3621adb
+
 Because one of the cats tends to eat a lot, she has a tendency to consume all the food in the morning. To help her eat more evenly, a time slot has been set during which she cannot eat. There is one time slot, and this time slot can be activated per cat (does not work stand-alone, this needs a WiFi connection for time synchronisation).
 
 Because the stepper motor is not precise enough (due to the flywheel effect, the disc can rotate further than desired), the number of steps the stepper motor takes cannot be relied upon. Therefore, an infrared reader has been added, which can read the position of the disc. Each position has its own 'barcode' indicating the orientation of the disc. Short-Long-Short (KLK) represents the home position, Long-Short-Short (LKK) represents cat 1, Long-Short-Long (LKL) represents cat 2. It doesn't matter which direction the disc rotates; the barcodes can be read from both sides. Once the correct barcode is read, the motor (and the disc) stop.
@@ -70,6 +72,12 @@ Holders for bowls:
 Table bearing, Infrared reader, Steppenmotor and motor holder:
 
 ![IMG_6429](https://github.com/Tech-RW/Catfeeder/assets/120517590/0f6799cc-b744-4cbe-a1c3-e1ed2e8210cf)
+
+Barcode reader:
+
+
+https://github.com/Tech-RW/Catfeeder/assets/120517590/9fcebbac-4847-4a30-97be-5c7550bea8e2
+
 
 'Barcode'
 ![IMG_6428](https://github.com/Tech-RW/Catfeeder/assets/120517590/d452829f-2f26-4a26-98e2-469788d8833a)
