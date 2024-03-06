@@ -1,3 +1,5 @@
+This project is under construction. If you have any questions, please let me know.
+
 I have 2 cats. Puck and Saar (as in Sarah). Lovely animals and each with a separate diet. One has a food intolerance and requires special food, the other tends to overeat. In practice, this meant they both received the same food and one would eat the other's food unless I stayed with them and fed them at fixed times, but that didn't work for me. This was the motivation to develop the catfeeder. The catfeeder consists of a box with a rotating disc inside. On the disc are two food bowls (standard IKEA) hidden under the lid. When a cat approaches (this is detected via the RFID chip in their neck), the correct food bowl is rotated forward. As long as the cat remains near the RFID reader, the bowl stays in place. If the cat moves away, the food bowl remains in place for about 10 seconds (in case she returns) and then rotates away again.
 
 Version 0.1, with mobile phone holder:
